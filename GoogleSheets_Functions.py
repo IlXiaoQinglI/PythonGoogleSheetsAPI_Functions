@@ -48,7 +48,8 @@ def sheetson():
     global sheet
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
-    LocalCreds = r"C:\Users\Xiao\Desktop\MdR\Projects\ArquivosAuxiliares\Credenciaisgoogle"
+# Na váriavel LocalCreds, você deve inserir o caminho para a pasta onde fica localizado os arquivos token.json e credentials.json
+    LocalCreds = r"C:\Caminho\Para\Pasta\Credenciaisgoogle"
 
     """Shows basic usage of the Sheets API.
     Prints values from a sample spreadsheet.
